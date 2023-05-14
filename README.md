@@ -1,4 +1,4 @@
-# DevPay - Deployed on Streamlit
+## Pix2Pix GAN - Image-to-Image Translation
 
 This project is a implementation of the Pix2Pix GAN for image-to-image translation. The Pix2Pix GAN is a conditional generative adversarial network that can be used to translate images from one domain to another. For example, you could use the Pix2Pix GAN to translate real celebrites images to their cartoonized version, or from sketches of products to photographs of products.
 
