@@ -9,17 +9,15 @@ This project is a implementation of the Pix2Pix GAN for image-to-image translati
 | Python       | An interpreted, high-level programming language used for general-purpose programming. |
 | NumPy        | A popular Python library used for scientific computing and working with arrays. |
 | Keras       | A  a high-level API that makes it easy to build and train neural networks. |
-| TensorFlow | An open-source software library for numerical computation using data flow graphs..                |
+| TensorFlow | An open-source software library for numerical computation using data flow graphs. |
 
 
 ## Getting Started
 To get started with this project, you will need to have the following installed:
 
-| Python       | An interpreted, high-level programming language used for general-purpose programming. |
-| NumPy        | A popular Python library used for scientific computing and working with arrays. |
+Python 3.6 or higher
 
-| Python 3.6 or higher |
-| NumPy |
+NumPy
 
 TensorFlow
 
