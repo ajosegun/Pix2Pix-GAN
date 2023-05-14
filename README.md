@@ -30,6 +30,20 @@ Once you have installed the necessary dependencies, you can clone the project re
 git clone https://github.com/ajosegun/pix2pix-gan.git
 ```
 
+The code is divided into 4 notebooks.
+1. 00_Pix2Pix_GAN_for_Image_to_Image_Translation_Cartoonize_Images.ipynb
+  Collect a dataset of Celebrity pictures and generated a complete ground truth ⇒ paired images (real <> cartoonized) (train and test) using a script (opencv) to stylish images. 
+  
+2. 01_Pix2Pix_GAN_for_Image_to_Image_Translation_Preparing_Dataset.ipynb
+  Here, feature engineering is perfomed on the dataset to transform it into a form usable by the model.
+  
+3. 02_Pix2Pix_GAN_for_Image_to_Image_Translation_Modeling.ipynb
+  This builds the Pix2Pix GAN Model. This model learn to map input images to output images, in our case real to non-real.
+  
+4. 03_Pix2Pix_GAN_for_Image_to_Image_Translation_Testing.ipynb 
+  Here, we test the model on new images.
+
+
 ## Conclusion
 The Pix2Pix GAN is a powerful tool for image-to-image translation. With this model, you can translate images from one domain to another, such as from daytime to nighttime, or from sketches to photographs. The model is easy to use and can be trained on a variety of different datasets.
 
