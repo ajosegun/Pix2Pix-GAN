@@ -15,9 +15,11 @@ This project is a implementation of the Pix2Pix GAN for image-to-image translati
 ## Getting Started
 To get started with this project, you will need to have the following installed:
 
-Python 3.6 or higher
-NumPy
+| Python 3.6 or higher |
+| NumPy |
+
 TensorFlow
+
 Keras
 
 ## Installation
