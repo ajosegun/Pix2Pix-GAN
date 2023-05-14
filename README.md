@@ -15,6 +15,9 @@ This project is a implementation of the Pix2Pix GAN for image-to-image translati
 ## Getting Started
 To get started with this project, you will need to have the following installed:
 
+| Python       | An interpreted, high-level programming language used for general-purpose programming. |
+| NumPy        | A popular Python library used for scientific computing and working with arrays. |
+
 | Python 3.6 or higher |
 | NumPy |
 
