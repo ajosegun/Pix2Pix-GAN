@@ -1,58 +1,34 @@
 # DevPay - Deployed on Streamlit
 
-DevPay is a machine learning web application that provides insights into software developer salaries based on the Stack Overflow Annual Developer Survey 2022. It utilizes the power of Python and the simplicity of Streamlit to provide a user-friendly interface for users to interact with the data.
+This project is a implementation of the Pix2Pix GAN for image-to-image translation. The Pix2Pix GAN is a conditional generative adversarial network that can be used to translate images from one domain to another. For example, you could use the Pix2Pix GAN to translate real celebrites images to their cartoonized version, or from sketches of products to photographs of products.
 
 ## Technologies
 
 | Technology   | Description                                                               |
 |--------------|---------------------------------------------------------------------------|
 | Python       | An interpreted, high-level programming language used for general-purpose programming. |
-| Streamlit    | An open-source Python library used to build interactive web applications. |
 | NumPy        | A popular Python library used for scientific computing and working with arrays. |
-| Pickle       | A Python module used for serializing and de-serializing Python objects. |
-| Scikit-learn | A Python library used for machine learning and data analysis.                |
+| Keras       | A  a high-level API that makes it easy to build and train neural networks. |
+| TensorFlow | An open-source software library for numerical computation using data flow graphs..                |
 
 
-## Demo
-A demo of this application is available on Streamlit - [DevPay](https://ajosegun-devpay.streamlit.app/)
+## Getting Started
+To get started with this project, you will need to have the following installed:
 
-![DevPay Image](./DevPayHome.png)
-
-
-## Features
-Average salary calculation based on various factors such as years of experience, job title, country, and programming language.
-
-Visualization of the data using interactive plots that can be filtered based on the above factors.
-
-Machine learning models to predict salary based on the user-specified factors.
-
-## Requirements
 Python 3.6 or higher
-Streamlit
-Pandas
-Numpy
-Matplotlib
-Seaborn
-Sklearn
+NumPy
+TensorFlow
+Keras
 
 ## Installation
-To install the required packages, run the following command:
+Once you have installed the necessary dependencies, you can clone the project repository from GitHub:
 
 ```
-pip install -r requirements.txt
+git clone https://github.com/ajosegun/pix2pix-gan.git
 ```
-
-## Usage
-To run the application, navigate to the root directory of the project in the terminal and run the following command:
-
-```
-streamlit run app.py
-```
-
-This will start the application and launch a local server at http://localhost:8501/ in your web browser.
 
 ## Conclusion
-DevPay is an easy-to-use machine learning web application that provides valuable insights into software developer salaries. With its user-friendly interface and powerful machine learning models, it is a valuable tool for anyone interested in exploring the data from the Stack Overflow Annual Developer Survey 2022.
+The Pix2Pix GAN is a powerful tool for image-to-image translation. With this model, you can translate images from one domain to another, such as from daytime to nighttime, or from sketches to photographs. The model is easy to use and can be trained on a variety of different datasets.
 
 
 
